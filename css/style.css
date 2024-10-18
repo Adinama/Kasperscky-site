@@ -78,7 +78,7 @@ a {
  a:focus {
     color: rgb(0, 0, 0);
  }
- a+p {
+ figure+p {
     margin-top:  30px;
  }
 
@@ -125,7 +125,7 @@ figure {
 .articles li:nth-child(odd) {
  background-color: rgb(224, 224, 224);
 }
-.lang {
+p:lang(en) {
     color: rgb(255, 0, 0);
     font-family: Georgia, serif;
 }
@@ -208,7 +208,7 @@ label {
     width: 200px;
     padding: 5px;
     margin-bottom: 10px;
-    border: rgb(173, 174, 189); solid 100 px;
+    border: rgb(173, 174, 189) solid 3px;
     background-color: #000000a6;
 }
 #submitButton:hover {
@@ -229,3 +229,25 @@ textarea::placeholder{
     opacity: 0.5;
     color: rgb(0, 0, 0);
 }
+.dates tr:nth-child(even) {
+    background-color: azure;
+    font-style: italic;
+}
+.dates th:nth-child(3) {
+    text-align: center;
+}
+#example-form {
+    margin: 10px auto;
+    max-width: 300px;
+}
+/* body- 10000
+.pink-100
+#logo - 101
+#mainnav ul - 110
+#mainnav .active - 111
+#mainnav a:hover - 114
+#mainnav ul li.active - 103 */
+p::first-line {
+    letter-spacing: 20px;
+}
+
