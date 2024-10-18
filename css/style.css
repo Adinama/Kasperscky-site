@@ -1,0 +1,231 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+html {
+    font-family: "Neucha", cursive;
+    font-size: 1.2em; /*oдин ем = 20 пикселей*/
+    /*1 рем = 2ем = 16*2=32рх*/
+}
+body {
+    background-color: rgb(223, 223, 223);
+
+}
+header {
+    background-color: rgb(223, 223, 223);
+    min-height: 150px;
+    text-align: center;
+}
+footer {
+    background-color: rgb(223, 223, 223);
+    min-height: 70px;
+    padding: 10px 50px;
+}
+.about {
+    background-color:  rgb(223, 223, 223);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.articles {
+    background-color:rgb(223, 223, 223);
+    background-color:  rgb(148, 127, 155);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    line-height: inherit;
+}
+h2 {
+    text-align: center;
+}
+.avatar {
+    width: 15r
+    
+    em;
+    display: block; /*делаем картинку блочным элементиом*/
+    margin: 0 auto; /*и применяем выравнивание через внешние бооки*/
+}
+h2 {
+    font-size: 2.5rem;
+}
+p { 
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.menu-item {
+    display:inline-block;
+    margin: 5px 10px;
+}
+
+.content {
+    background-color: darkred;
+    padding: 10px 50px;
+}
+a {
+    color: rgb(88, 46, 99);
+    text-decoration: none;
+ }      
+
+ a:visited {
+    color: rgb(0, 0, 0);
+ }
+ a:hover {
+    color: azure;
+ }
+ a:link {
+    color: brown;
+ } 
+ a:focus {
+    color: rgb(0, 0, 0);
+ }
+ a+p {
+    margin-top:  30px;
+ }
+
+ .articles a:hover
+ {
+    color: darkred;
+    text-decoration: underline;
+ }
+.articles li {
+    background-color: rgb(236, 236, 236);
+}
+.imp::after{
+    content:"важно";
+    font-size: 12px;
+    margin-left: 20px;
+    color: brown;
+}
+ /* h2::first-letter {
+    font-size: 30px;
+    color: brown;
+ } */ 
+  section {
+    padding: 50px;
+  }
+  table {      
+    border-collapse: collapse;
+    border: 5px solid gray;
+}
+  
+td, th {
+    border: 2px solid black;
+}
+.avatar {
+    width: 15rem;
+    display: block/*делаем картинку блочным элементом*/;
+    margin: 0% auto;
+    border:2px ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5)
+}
+figure {
+    text-align: center;
+}
+.articles li:nth-child(odd) {
+ background-color: rgb(224, 224, 224);
+}
+.lang {
+    color: rgb(255, 0, 0);
+    font-family: Georgia, serif;
+}
+p::first-line {
+    letter-spacing: 4px;
+}
+.about{
+    color: #e79b68;
+   }
+   footer img{
+    border: 1px solid rgb(95, 94, 94);
+   }
+   img+p {
+    margin-top: 2500px;
+   }
+   h1 {
+    text-decoration: overline;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 100;
+ }
+ h2 {
+    text-decoration: underline;
+    text-transform: none;
+    font-weight: 300;
+ }
+ h3 {
+    text-decoration: underline;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+ }
+p {
+    font-family: serif;font: 1em sans-serif;
+}
+.articles2 {
+    text-transform: lowercase; text-align: center;
+}
+dt {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+td li:nth-child(odd) {
+    background-color: coral;
+}
+#topic {
+    margin: 10px auto;
+    max-width: 300px;
+    padding: 10px 20px;
+    background-color: rgb(56, 29, 10);
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(216, 188, 169);
+    border-radius: 5px;
+    width: 230px;
+}
+label {
+    font-size: 20px;
+    color:rgb(248, 232, 232);
+}
+#fdbck {
+    padding: 30px 40px;
+    background-color: rgb(173, 174, 189);
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(182, 182, 194);
+    border-radius: 10px;
+    height: 90px;
+    width: 150px;
+}
+#gender {
+    font-size: 30px;
+    color:rgb(80, 73, 73);
+}
+#male, #female {
+    color:rgb(0, 0, 0);
+}
+#submitButton {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-style: italic;
+    height: 50px;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: rgb(173, 174, 189); solid 100 px;
+    background-color: #000000a6;
+}
+#submitButton:hover {
+    background-color: #d8f0ff; 
+}
+#name, #mail1, #bday, #telephone {
+    background-color:rgb(247, 167, 113);
+    height: 25px;
+    width: 190px;
+}
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: rgb(255, 255, 255);
+}
+textarea::placeholder{
+    font-weight: bold;
+    opacity: 0.5;
+    color: rgb(0, 0, 0);
+}
